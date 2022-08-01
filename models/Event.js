@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const {isURL} = require("validator");
+const {isURL} = require("validator"); 
 
 const eventSchema = new mongoose.Schema({
     eventName:{
